@@ -1,46 +1,50 @@
 {
-    "name": "alposcript",
-    "version": "0.1.1",
-    "publisher": "tpisto",
-    "displayName": "AlpoScript Language Support",
-    "keywords": ["alposcript", "AlpoScript"],
-    "engines": {
-        "vscode": "*"
-    },
-    "categories": [
-        "Languages"
+  "name": "vscode-alposcript-syntax-highlighting",
+  "version": "0.1.1",
+  "publisher": "tpisto",
+  "repository": "https://github.com/tpisto/vscode-alposcript-syntax-highlighting.git",
+  "displayName": "AlpoScript Syntax Highlighting",
+  "keywords": [
+    "alposcript",
+    "AlpoScript"
+  ],
+  "engines": {
+    "vscode": "*"
+  },
+  "categories": [
+    "Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "alposcript",
+        "extensions": [
+          ".as",
+          ".asx"
+        ],
+        "aliases": [
+          "AlpoScript",
+          "alposcript"
+        ],
+        "configuration": "./alposcript.configuration.json"
+      }
     ],
-    "contributes": {
-        "languages": [
-            {
-                "id": "alposcript",
-                "extensions": [
-                    ".as",
-                    ".asx"
-                ],
-                "aliases": [
-                    "AlpoScript",
-                    "alposcript"
-                ],
-                "configuration": "./alposcript.configuration.json"
-            }
-        ],
-        "grammars": [
-            {
-                "language": "alposcript",
-                "scopeName": "source.alposcript",
-                "path": "./syntaxes/AlpoScript.tmLanguage"
-            }
-        ],
-        "debuggers": [
-            {
-                "type": "node",
-                "enableBreakpointsFor": {
-                    "languageIds": [
-                        "alposcript"
-                    ]
-                }
-            }
-        ]
-    }
+    "grammars": [
+      {
+        "language": "alposcript",
+        "scopeName": "source.alposcript",
+        "path": "./syntaxes/AlpoScript.tmLanguage"
+      }
+    ],
+    "debuggers": [
+      {
+        "type": "node",
+        "enableBreakpointsFor": {
+          "languageIds": [
+            "alposcript"
+          ]
+        }
+      }
+    ]
+  }
 }
