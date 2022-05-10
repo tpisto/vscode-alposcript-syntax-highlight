@@ -1,2 +1,6 @@
 # vscode-alposcript-syntax-highlight
-AlpoScript Syntax Highlight
+VSCode AlpoScript Syntax Highlight
+
+Fork from
+Paul Miller (@paulmillr)
+Paul Selibas (@pselibas)
