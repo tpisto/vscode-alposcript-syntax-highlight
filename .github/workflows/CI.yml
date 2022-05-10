@@ -2,6 +2,7 @@ name: Publish VS Code Extension
 # You may pin to the exact commit or the version.
 uses: HaaLeo/publish-vscode-extension@9ba6666c66e283a9dde2c09d7476200cb371544d
 on:
+  workflow_dispatch
   push:
     tags:
       - "*"
