@@ -468,7 +468,7 @@
 				</dict>				
 			</dict>		
 			<key>match</key>
-			<string>(?x)([\w$.:-]+)(\s*!?\s*\(.*\))?\s*(!?[-=]&gt;{1,2}\*?)</string>
+			<string>(?x)([\w$.:-]+) (\(.*\))?\s*(!?[-=]&gt;{1,2}\*?)</string>
 		</dict>
 		<dict>
 			<key>match</key>
