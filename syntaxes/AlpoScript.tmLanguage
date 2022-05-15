@@ -449,6 +449,28 @@
 			<string>meta.function.alposcript</string>
 		</dict>
 		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.function.alposcript</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>variable.parameter.function.alposcript</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>storage.type.function.alposcript</string>
+				</dict>				
+			</dict>		
+			<key>match</key>
+			<string>(?x)([\w$.:-]+)(\s*!?\s*\(.*\))?\s*(!?[-=]&gt;{1,2}\*?)</string>
+		</dict>
+		<dict>
 			<key>match</key>
 			<string>\b(?&lt;!\.)(true|on|yes)(?!\s*:)\b</string>
 			<key>name</key>
