@@ -329,7 +329,7 @@
 				|continue|const|case|catch|class
 				|in|instanceof|import|import\s+all|implements|if|is
 				|default|delete|debugger|do
-				|for|for\s+own|finally|function|from|fallthrough
+				|for|for\s+own|finally|fn|from|fallthrough
 				|super|switch
 				|else|nobreak|extends|export|eval
 				|and|arguments
