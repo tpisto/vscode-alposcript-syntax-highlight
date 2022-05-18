@@ -1,6 +1,6 @@
 {
   "name": "vscode-alposcript-syntax-highlighting",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "publisher": "tpisto",
   "repository": "https://github.com/tpisto/vscode-alposcript-syntax-highlighting.git",
   "displayName": "AlpoScript Syntax Highlighting",
