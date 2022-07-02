@@ -337,7 +337,7 @@
 				|unless|until
 				|while|with|when
 				|of|or|otherwise
-				|let|_var|loop
+				|let|var|loop
 				|match
 				|by|yield
 				)(?!\-|\s*:)\b
